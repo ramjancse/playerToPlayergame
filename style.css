@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  background-color: beige;
+}
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+}
+.score {
+  font-size: 30px;
+}
+.btn {
+  width: 100px;
+  height: 30px;
+  background-color: #008cba;
+  border-radius: 5px;
+  color: #fff;
+  padding: 10px;
+  margin: 5px;
+  border: none;
+  text-align: center;
+  cursor: pointer;
+}
+.btn-group {
+  display: flex;
+  flex-direction: row;
+}
+.palyingTo {
+  margin: 20px;
+  font-size: 30px;
+}
